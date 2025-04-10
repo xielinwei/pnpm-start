@@ -1,0 +1,13 @@
+{
+  "name": "pnpm-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:a": "pnpm --filter project-a run start",
+    "start:b": "pnpm --filter project-b run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
